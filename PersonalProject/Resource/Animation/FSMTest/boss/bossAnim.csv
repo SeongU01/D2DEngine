@@ -1,0 +1,5 @@
+﻿status,path,isloop
+3,,
+Idle,../Resource/Animation/FSMTest/boss/bossIdle.csv,1
+Move,../Resource/Animation/FSMTest/boss/bossMove.csv,1
+Attack,../Resource/Animation/FSMTest/boss/bossAttack.csv,0

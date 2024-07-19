@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Render">
+      <UniqueIdentifier>{941f4238-c52d-41f3-98ba-3e8bb94f4387}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene">
+      <UniqueIdentifier>{4bba26cf-263d-4b78-bc00-8a4d99a5dd2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Manager">
+      <UniqueIdentifier>{3f995361-807f-4cb3-8787-48c8af177cab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Manager\ResourceManager">
+      <UniqueIdentifier>{9ca5f473-f939-460f-a4d7-6d09d29e5df6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Object">
+      <UniqueIdentifier>{b0f24118-f8ca-4d5e-a10e-07c0fd1435aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Component">
+      <UniqueIdentifier>{8a1a4f9d-e49d-4776-9cc7-a3f9914a3e57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Component\Render">
+      <UniqueIdentifier>{c17e38c4-80d2-4e40-9db3-abae03e606d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Component\Render\Bitmap">
+      <UniqueIdentifier>{cdddd69e-65af-4f3c-9d68-1141d825616d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Component\TransformComponent">
+      <UniqueIdentifier>{bb09cd8e-015c-4d0a-85ab-d2f021b0025f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Math">
+      <UniqueIdentifier>{bf589273-cad0-42ae-b3e6-3cd1f78d9232}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Math\Vector">
+      <UniqueIdentifier>{8c27a4f5-db23-4449-95de-ae344969e744}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Component\Render\Animation">
+      <UniqueIdentifier>{11281eb6-0e18-4ffd-a8ae-f426d73271ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Component\Render\Texture">
+      <UniqueIdentifier>{406bd372-bd1c-4a74-839c-a6ac922c50b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\System">
+      <UniqueIdentifier>{2fa653ac-0ffd-4763-8e14-cba77dbaa45f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\System\Timer">
+      <UniqueIdentifier>{d0a729c3-9783-4cba-a81e-39d5624c88eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\System\Input">
+      <UniqueIdentifier>{794db15c-ac32-4104-aaf5-b5a8c6cbd93f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Component\Render\Text">
+      <UniqueIdentifier>{c438b9b4-994b-402a-956a-ce9f6505d1b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\FSM">
+      <UniqueIdentifier>{ab57eaf5-1402-4e70-886a-5f8055edd6ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Math\AABB">
+      <UniqueIdentifier>{5e171fc7-171c-4563-99db-4c87fd3bd9b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Camera">
+      <UniqueIdentifier>{18cb2a9a-a906-4f75-a1a4-3102e5d4cb1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Component\Colider">
+      <UniqueIdentifier>{a54b3f3a-bd37-4ae3-b2ac-cb389a62617d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Component\TransformComponent\Transform">
+      <UniqueIdentifier>{72615b68-ff93-4a60-bad6-edfdf68aed22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Component\Movement">
+      <UniqueIdentifier>{75e7ec4c-8837-4bbc-81a0-867f4065f684}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Manager\Event">
+      <UniqueIdentifier>{0ce00ba2-c466-42a1-921e-4b623c4ec516}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="WinGameApp.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="D2DRenderer.h">
+      <Filter>소스 파일\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>소스 파일\System\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>소스 파일\Manager\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>소스 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>소스 파일\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderComponent.h">
+      <Filter>소스 파일\Component\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="BitmapComponent.h">
+      <Filter>소스 파일\Component\Render\Bitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformComponent.h">
+      <Filter>소스 파일\Component\TransformComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2F.h">
+      <Filter>소스 파일\Math\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationComponent.h">
+      <Filter>소스 파일\Component\Render\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureComponent.h">
+      <Filter>소스 파일\Component\Render\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationAsset.h">
+      <Filter>소스 파일\Component\Render\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="GrammarHelper.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSystem.h">
+      <Filter>소스 파일\System\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="TextComponent.h">
+      <Filter>소스 파일\Component\Render\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGraph.h">
+      <Filter>소스 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ReferenceCounter.h">
+      <Filter>소스 파일\Manager\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="IFSMState.h">
+      <Filter>소스 파일\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="FSM.h">
+      <Filter>소스 파일\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="AABB.h">
+      <Filter>소스 파일\Math\AABB</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>소스 파일\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderComponent.h">
+      <Filter>소스 파일\Component\Colider</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugConsole.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>소스 파일\Component\TransformComponent\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementComponent.h">
+      <Filter>소스 파일\Component\Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="Delegator.h">
+      <Filter>소스 파일\Manager\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="EventManager.h">
+      <Filter>소스 파일\Manager\Event</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="WinGameApp.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="D2DRenderer.cpp">
+      <Filter>소스 파일\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="D2DEngine.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>소스 파일\System\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>소스 파일\Manager\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>소스 파일\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderComponent.cpp">
+      <Filter>소스 파일\Component\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="BitmapComponent.cpp">
+      <Filter>소스 파일\Component\Render\Bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2F.cpp">
+      <Filter>소스 파일\Math\Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationComponent.cpp">
+      <Filter>소스 파일\Component\Render\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureComponent.cpp">
+      <Filter>소스 파일\Component\Render\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationAsset.cpp">
+      <Filter>소스 파일\Component\Render\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSystem.cpp">
+      <Filter>소스 파일\System\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="TextComponent.cpp">
+      <Filter>소스 파일\Component\Render\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGraph.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ReferenceCounter.cpp">
+      <Filter>소스 파일\Manager\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="IFSMState.cpp">
+      <Filter>소스 파일\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="FSM.cpp">
+      <Filter>소스 파일\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="AABB.cpp">
+      <Filter>소스 파일\Math\AABB</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>소스 파일\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="ColliderComponent.cpp">
+      <Filter>소스 파일\Component\Colider</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>소스 파일\Component\TransformComponent\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformComponent.cpp">
+      <Filter>소스 파일\Component\TransformComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="MovementComponent.cpp">
+      <Filter>소스 파일\Component\Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="Delegator.cpp">
+      <Filter>소스 파일\Manager\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="EventManager.cpp">
+      <Filter>소스 파일\Manager\Event</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram2.cd" />
+  </ItemGroup>
+</Project>

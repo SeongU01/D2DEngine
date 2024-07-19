@@ -1,0 +1,4 @@
+﻿status,path,isloop
+2,,
+Idle,../Resource/Animation/FSMTest/player/playerIdle.csv,1
+Move,../Resource/Animation/FSMTest/player/playerMove.csv,1

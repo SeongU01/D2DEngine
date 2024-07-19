@@ -1,0 +1,4 @@
+﻿status,path,isloop
+2,,
+Idle,../Resource/Stage1/kitty/kittyIdle.csv,1
+Dead,../Resource/Stage1/kitty/kittyDead.csv,0

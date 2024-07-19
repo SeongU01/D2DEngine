@@ -1,0 +1,7 @@
+﻿status,path,isloop
+5,,
+Idle,../Resource/Animation/Ken/KenIdle.csv,1
+RightToLeft,../Resource/Animation/Ken/KenRightToLeft.csv,0
+Move,../Resource/Animation/Ken/KenMove.csv,1
+Jump,../Resource/Animation/Ken/KenJump.csv,0
+Attack,../Resource/Animation/Ken/KenAttack.csv,0

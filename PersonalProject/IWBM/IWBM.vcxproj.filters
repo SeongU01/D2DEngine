@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Scene">
+      <UniqueIdentifier>{0efe96d5-c861-425f-873a-12db14a56b92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene\Stage1">
+      <UniqueIdentifier>{41481255-e541-45ce-b402-a3e16878187a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene\Stage1\GameObject">
+      <UniqueIdentifier>{b595a9de-6e8e-41be-a887-243ebe8ed2d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene\Stage1\GameObject\Player">
+      <UniqueIdentifier>{55c331a9-db69-40ea-bf91-a3f6c18fa629}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene\Stage1\World">
+      <UniqueIdentifier>{56fbf52e-b8c3-47e5-b668-0e13219e3e95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene\Stage1\GameObject\Boss">
+      <UniqueIdentifier>{54e4b112-3757-4e47-b3a8-ad125c2afd3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene\Stage1\GameObject\Player\Bullet">
+      <UniqueIdentifier>{e5395fff-5d8f-4ac2-88aa-70a107459e8c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="IWBM.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="IWBMApp.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>소스 파일\Scene\Stage1\GameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>소스 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerState.h">
+      <Filter>소스 파일\Scene\Stage1\GameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletSpawner.h">
+      <Filter>소스 파일\Scene\Stage1\GameObject\Player\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>소스 파일\Scene\Stage1\GameObject\Player\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage1.h">
+      <Filter>소스 파일\Scene\Stage1\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>소스 파일\Scene\Stage1\GameObject\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="BossState.h">
+      <Filter>소스 파일\Scene\Stage1\GameObject\Boss</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="IWBM.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="IWBMApp.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\Scene\Stage1\GameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerState.cpp">
+      <Filter>소스 파일\Scene\Stage1\GameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletSpawner.cpp">
+      <Filter>소스 파일\Scene\Stage1\GameObject\Player\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>소스 파일\Scene\Stage1\GameObject\Player\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage1.cpp">
+      <Filter>소스 파일\Scene\Stage1\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>소스 파일\Scene\Stage1\GameObject\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="BossState.cpp">
+      <Filter>소스 파일\Scene\Stage1\GameObject\Boss</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="IWBM.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="IWBM.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
